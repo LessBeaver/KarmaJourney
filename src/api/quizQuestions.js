@@ -1,87 +1,173 @@
 var quizQuestions = [
     {
-        question: "What franchise would you rather play a game from?",
+        question: "When you eat a pizza, do you prefere :",
         answers: [
             {
-                type: "Microsoft",
-                content: "Halo"
+                type: "Positive",
+                content: "Tomato based"
             },
             {
-                type: "Nintendo",
-                content: "Pokemon"
-            },
-            {
-                type: "Sony",
-                content: "Uncharted"
+                type: "Negative",
+                content: "Cream based"
             }
         ]
     },
     {
-        question: "Which console would you prefer to play with friends?",
+        question: "What is you favorite animal ?",
         answers: [
             {
-                type: "Microsoft",
-                content: "X-Box"
+                type: "Negative",
+                content: "Giraffe"
             },
             {
-                type: "Nintendo",
-                content: "Nintendo 64"
+                type: "Positive",
+                content: "Beaver"
             },
             {
-                type: "Sony",
-                content: "Playstation 1"
+                type: "Positive",
+                content: "Pengiun"
+            },
+            {
+                type: "Negative",
+                content: "Kagaroo"
             }
         ]
     },
     {
-        question: "Which of these racing franchises would you prefer to play a game from?",
+        question: "Where do you see yourself in a few weeks ?",
         answers: [
             {
-                type: "Microsoft",
-                content: "Forza"
+                type: "Positive",
+                content: "Rome"
             },
             {
-                type: "Nintendo",
-                content: "Mario Kart"
+                type: "Positive",
+                content: "Bora Bora"
             },
             {
-                type: "Sony",
-                content: "Gran Turismo"
+                type: "Negative",
+                content: "Home, obviously"
+            },
+            {
+                type: "Negative",
+                content: "Six feet under"
             }
         ]
     },
     {
-        question: "Which of these games do you think is best?",
+        question: "How do you want to work :",
         answers: [
             {
-                type: "Microsoft",
-                content: "BioShock"
+                type: "Positive",
+                content: "In a cool start-up"
             },
             {
-                type: "Nintendo",
-                content: "The Legend of Zelda: Ocarina of Time"
+                type: "Negative",
+                content: "In a big international company"
             },
             {
-                type: "Sony",
-                content: "Final Fantasy VII"
+                type: "Positive",
+                content: "As a nomad digital"
+            },
+            {
+                type: "Negative",
+                content: "To what ?"
             }
         ]
     },
     {
-        question: "What console would you prefer to own?",
+        question: "What kind of sport do you like ?",
         answers: [
             {
-                type: "Microsoft",
-                content: "X-Box One"
+                type: "Positive",
+                content: "Indoors sports"
             },
             {
-                type: "Nintendo",
-                content: "Wii U"
+                type: "Negative",
+                content: "Outdoors sports"
             },
             {
-                type: "Sony",
-                content: "Playstation 4"
+                type: "Positive",
+                content: "In bed sports"
+            },
+            {
+                type: "Negative",
+                content: "None"
             }
+        ]
+    },
+    {
+        question: "What is you favorite cocktail ?",
+        answers: [
+            {
+                type: "Positive",
+                content: "Caipirinha"
+            },
+            {
+                type: "Negative",
+                content: "Dry martini"
+            },
+            {
+                type: "Positive",
+                content: "Bloody mary"
+            },
+            {
+                type: "Negative",
+                content: "Virgin Pina Colada"
+            }
+        ]
+    },
+    {
+        question: "And finally, what is your Zodiac symbol ?",
+        answers: [
+            {
+                type: "Positive",
+                content: "Aries"
+            },
+            {
+                type: "Negative",
+                content: "Taurus"
+            },
+            {
+                type: "Positive",
+                content: "Gemini"
+            },
+            {
+                type: "Negative",
+                content: "Cancer"
+            },
+            {
+              type: "Positive",
+              content: "Leo"
+          },
+          {
+              type: "Negative",
+              content: "Virgo"
+          },
+          {
+              type: "Positive",
+              content: "Libra"
+          },
+          {
+              type: "Negative",
+              content: "Scropio"
+          },
+          {
+            type: "Positive",
+            content: "Sagittarius"
+        },
+        {
+            type: "Negative",
+            content: "Capricorn"
+        },
+        {
+            type: "Positive",
+            content: "Aquarius"
+        },
+        {
+            type: "Negative",
+            content: "Pisces"
+        }
         ]
     }
   ];
