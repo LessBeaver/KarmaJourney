@@ -16,6 +16,7 @@ class QuizPage extends Component {
       answer: "",
       answersCount: {},
       result: "",
+      questionBg: '',
     };
 
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
@@ -70,6 +71,7 @@ class QuizPage extends Component {
       answer: answer,
     }));
   }
+  
 
   setNextQuestion() {
     const counter = this.state.counter + 1;
@@ -122,9 +124,9 @@ class QuizPage extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <h2>React Quiz</h2>
+      <div className="QuizPage">
+        <div className="QuizPage-Header">
+          <h2>Karma Journey</h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
