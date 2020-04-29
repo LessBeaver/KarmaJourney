@@ -24,18 +24,18 @@ body {
   font-family: sans-serif;
 }
 
+.App {
+  background-image: url(./cocktail.jpg);
+  background-size: cover;
+  max-height: 100%;
+  height: auto;
+}
+
 .container {
   position: relative;
   max-width: 800px;
-  margin: 0 auto;
-  background: #fff;
+  margin: 200px auto;
   border-radius: 3px;
-}
-
-@media (min-width: 769px) {
-  .container {
-    margin: 2.5rem auto;
-  }
 }
 
 /* Result Component */
@@ -68,7 +68,7 @@ body {
 }
 
 .answerOption:hover {
-  background-color: #eefbfe;
+  background-color: white
 }
 
 .radioCustomButton {
@@ -103,6 +103,7 @@ body {
   display: inline-block;
   vertical-align: middle;
   background: #fff;
+  opacity: 0.2;
   border: 1px solid #bbb;
   border-radius: 50%;
   transition: all 0.3s;
