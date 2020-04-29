@@ -1,0 +1,11 @@
+.homebg {
+    background-image: url('./plagebis.jpg');
+    background-color: red;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
