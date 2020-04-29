@@ -16,7 +16,6 @@ class QuizPage extends Component {
       answer: "",
       answersCount: {},
       result: "",
-      bgImage: "",
     };
 
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);

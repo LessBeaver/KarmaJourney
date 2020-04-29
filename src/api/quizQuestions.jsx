@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import belier from './zodiacSigns/belier.png';
 import cancer from './zodiacSigns/cancer.png';
 import capricorne from './zodiacSigns/capricorne.png';
@@ -10,7 +10,7 @@ import scorpion from './zodiacSigns/scorpion.png';
 import taureau from './zodiacSigns/taureau.png';
 import verseau from './zodiacSigns/verseau.png';
 import vierge from './zodiacSigns/vierge.png';
-import balance from './zodiacSigns/balance.png';
+import balance from './zodiacSigns/balance.png'; */
 // import sealBg from './bgQuestions/sealBg.jpg';
 // import sharkBg from './bgQuestions/sharkBg.jpg';
 
@@ -50,19 +50,11 @@ const quizQuestions = [
                 content: "Beaver"
             },
             {
-<<<<<<< HEAD
                 type: "Positif",
                 content: "Pengiun"
             },
             {
                 type: "Negatif",
-=======
-                type: "Positive",
-                content: "Pengiun"
-            },
-            {
-                type: "Negative",
->>>>>>> aaea41d3faad2f182cc76094564c62e015d5c97c
                 content: "Kagaroo"
             }
         ]
@@ -104,11 +96,7 @@ const quizQuestions = [
                 content: "As a nomad digital"
             },
             {
-<<<<<<< HEAD
                 type: "Negatif",
-=======
-                type: "Negative",
->>>>>>> aaea41d3faad2f182cc76094564c62e015d5c97c
                 content: "To what ?"
             }
         ]
@@ -125,11 +113,7 @@ const quizQuestions = [
                 content: "Outdoors sports"
             },
             {
-<<<<<<< HEAD
                 type: "Positif",
-=======
-                type: "Positive",
->>>>>>> aaea41d3faad2f182cc76094564c62e015d5c97c
                 content: "In bed sports"
             },
             {
@@ -154,11 +138,7 @@ const quizQuestions = [
                 content: "Bloody mary"
             },
             {
-<<<<<<< HEAD
                 type: "Negatif",
-=======
-                type: "Negative",
->>>>>>> aaea41d3faad2f182cc76094564c62e015d5c97c
                 content: "Virgin Pina Colada"
             }
         ]
@@ -179,45 +159,8 @@ const quizQuestions = [
                 content: "Water"
             },
             {
-<<<<<<< HEAD
-                type: "Neg",
-                content: <img src={cancer} alt="blabla" />
-            },
-            {
-                type: "Pos",
-                content: <img src={lion} alt="blabla" />
-            },
-            {
-                type: "Neg",
-                content: <img src={vierge} alt="blabla" />
-            },
-            {
-                type: "Pos",
-                content: <img src={balance} alt="blabla" />
-            },
-            {
-                type: "Neg",
-                content: <img src={scorpion} alt="blabla" />
-            },
-            {
-                type: "Pos",
-                content: <img src={sagittaire} alt="blabla" />
-            },
-            {
-                type: "Neg",
-                content: <img src={capricorne} alt="blabla" />
-            },
-            {
-                type: "Pos",
-                content: <img src={verseau} alt="blabla" />
-            },
-            {
-                type: "Neg",
-                content: <img src={poisson} alt="blabla" />
-=======
                 type: "Negatif",
                 content: "Air"
->>>>>>> aaea41d3faad2f182cc76094564c62e015d5c97c
             }
         ]
     }

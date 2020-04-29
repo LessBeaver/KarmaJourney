@@ -32,10 +32,10 @@ body {
 }
 
 .container {
-  position: relative;
-  max-width: 800px;
-  margin: 200px auto;
   border-radius: 3px;
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
 }
 
 /* Result Component */
