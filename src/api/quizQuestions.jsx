@@ -26,7 +26,15 @@ const quizQuestions = [
             {
                 type: "Neg",
                 content: "Cream based"
-            }
+            },
+            {
+              type: "Positive",
+              content: "I hate pizza"
+          },
+          {
+              type: "Negative",
+              content: "Nutella base"
+          }
         ]
     },
     {
@@ -42,11 +50,19 @@ const quizQuestions = [
                 content: "Beaver"
             },
             {
+<<<<<<< HEAD
                 type: "Positif",
                 content: "Pengiun"
             },
             {
                 type: "Negatif",
+=======
+                type: "Positive",
+                content: "Pengiun"
+            },
+            {
+                type: "Negative",
+>>>>>>> aaea41d3faad2f182cc76094564c62e015d5c97c
                 content: "Kagaroo"
             }
         ]
@@ -59,7 +75,7 @@ const quizQuestions = [
                 content: "Rome"
             },
             {
-                type: "Pos",
+                type: "Positive",
                 content: "Bora Bora"
             },
             {
@@ -67,7 +83,7 @@ const quizQuestions = [
                 content: "Home, obviously"
             },
             {
-                type: "Neg",
+                type: "Negative",
                 content: "Six feet under"
             }
         ]
@@ -84,11 +100,15 @@ const quizQuestions = [
                 content: "In a big international company"
             },
             {
-                type: "Pos",
+                type: "Positive",
                 content: "As a nomad digital"
             },
             {
+<<<<<<< HEAD
                 type: "Negatif",
+=======
+                type: "Negative",
+>>>>>>> aaea41d3faad2f182cc76094564c62e015d5c97c
                 content: "To what ?"
             }
         ]
@@ -105,11 +125,15 @@ const quizQuestions = [
                 content: "Outdoors sports"
             },
             {
+<<<<<<< HEAD
                 type: "Positif",
+=======
+                type: "Positive",
+>>>>>>> aaea41d3faad2f182cc76094564c62e015d5c97c
                 content: "In bed sports"
             },
             {
-                type: "Neg",
+                type: "Negative",
                 content: "None"
             }
         ]
@@ -126,31 +150,36 @@ const quizQuestions = [
                 content: "Dry martini"
             },
             {
-                type: "Pos",
+                type: "Positive",
                 content: "Bloody mary"
             },
             {
+<<<<<<< HEAD
                 type: "Negatif",
+=======
+                type: "Negative",
+>>>>>>> aaea41d3faad2f182cc76094564c62e015d5c97c
                 content: "Virgin Pina Colada"
             }
         ]
     },
     {
-        question: "And finally, what is your Zodiac symbol ?",
+        question: "What is you favorite element ?",
         answers: [
             {
                 type: "Pos",
-                content: <img src={belier} alt="blabla" />
+                content: "Earth"
             },
             {
                 type: "Neg",
-                content: <img src={taureau} alt="blabla" />
+                content: "Fire"
             },
             {
-                type: "Pos",
-                content: <img src={gemeaux} alt="blabla" />
+                type: "Positif",
+                content: "Water"
             },
             {
+<<<<<<< HEAD
                 type: "Neg",
                 content: <img src={cancer} alt="blabla" />
             },
@@ -185,6 +214,10 @@ const quizQuestions = [
             {
                 type: "Neg",
                 content: <img src={poisson} alt="blabla" />
+=======
+                type: "Negatif",
+                content: "Air"
+>>>>>>> aaea41d3faad2f182cc76094564c62e015d5c97c
             }
         ]
     }
