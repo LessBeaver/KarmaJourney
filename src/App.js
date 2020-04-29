@@ -32,6 +32,7 @@ class App extends Component {
     });
   }
 
+  // Change l'ordre des réponses ! Ex : Nintendo/Microsoft => Microsoft/Nintendo
   shuffleArray(array) {
     var currentIndex = array.length,
       temporaryValue,
