@@ -6,9 +6,8 @@ class Home extends React.Component {
   render() {
     return (
       <div className="homebg flex-column">
-        <h1>Karma Journey</h1>
         <Link to="QuizPage" className="">
-          <h4>Play now</h4>
+          <button className="play" type="button">Play now !</button>
         </Link>
       </div>
     );

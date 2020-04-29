@@ -9,3 +9,18 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.play {
+  display: absolute;
+  background-image: linear-gradient(to right, #403B4A 0%, #E7E9BB 51%, #403B4A 100%);
+  padding: 6px 10px;
+  margin-top: 41vh;
+  border-radius: 10px;
+  height: auto;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.play:hover {
+  background-position: right center; 
+} 
