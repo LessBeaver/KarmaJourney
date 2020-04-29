@@ -1,0 +1,520 @@
+{
+    "status": "OK",
+    "result": {
+        "offset": 0,
+        "limit": 10,
+        "total": 10,
+        "webcams": [
+            {
+                "id": "1583783403",
+                "status": "active",
+                "title": "Nilandhoo: The St. Regis - Vommuli Resort",
+                "image": {
+                    "current": {
+                        "icon": "https://images-webcams.windy.com/03/1583783403/current/icon/1583783403.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/03/1583783403/current/thumbnail/1583783403.jpg",
+                        "preview": "https://images-webcams.windy.com/03/1583783403/current/preview/1583783403.jpg",
+                        "toenail": "https://images-webcams.windy.com/03/1583783403/current/thumbnail/1583783403.jpg"
+                    },
+                    "sizes": {
+                        "icon": {
+                            "width": 48,
+                            "height": 48
+                        },
+                        "thumbnail": {
+                            "width": 200,
+                            "height": 112
+                        },
+                        "preview": {
+                            "width": 400,
+                            "height": 224
+                        },
+                        "toenail": {
+                            "width": 200,
+                            "height": 112
+                        }
+                    },
+                    "daylight": {
+                        "icon": "https://images-webcams.windy.com/03/1583783403/daylight/icon/1583783403.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/03/1583783403/daylight/thumbnail/1583783403.jpg",
+                        "preview": "https://images-webcams.windy.com/03/1583783403/daylight/preview/1583783403.jpg",
+                        "toenail": "https://images-webcams.windy.com/03/1583783403/daylight/thumbnail/1583783403.jpg"
+                    },
+                    "update": 1588180712
+                },
+                "location": {
+                    "city": "Nilandhoo",
+                    "region": "Faafu",
+                    "region_code": "MV.33",
+                    "country": "Maldives",
+                    "country_code": "MV",
+                    "continent": "Asia",
+                    "continent_code": "AS",
+                    "latitude": 2.911261,
+                    "longitude": 72.866076,
+                    "timezone": "Indian/Maldives",
+                    "wikipedia": ""
+                }
+            },
+            {
+                "id": "1179853135",
+                "status": "active",
+                "title": "Syd: Sydney - Sydney Opera House - Sydney Harbour Bridge",
+                "image": {
+                    "current": {
+                        "icon": "https://images-webcams.windy.com/35/1179853135/current/icon/1179853135.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/35/1179853135/current/thumbnail/1179853135.jpg",
+                        "preview": "https://images-webcams.windy.com/35/1179853135/current/preview/1179853135.jpg",
+                        "toenail": "https://images-webcams.windy.com/35/1179853135/current/thumbnail/1179853135.jpg"
+                    },
+                    "sizes": {
+                        "icon": {
+                            "width": 48,
+                            "height": 48
+                        },
+                        "thumbnail": {
+                            "width": 200,
+                            "height": 112
+                        },
+                        "preview": {
+                            "width": 400,
+                            "height": 224
+                        },
+                        "toenail": {
+                            "width": 200,
+                            "height": 112
+                        }
+                    },
+                    "daylight": {
+                        "icon": "https://images-webcams.windy.com/35/1179853135/daylight/icon/1179853135.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/35/1179853135/daylight/thumbnail/1179853135.jpg",
+                        "preview": "https://images-webcams.windy.com/35/1179853135/daylight/preview/1179853135.jpg",
+                        "toenail": "https://images-webcams.windy.com/35/1179853135/daylight/thumbnail/1179853135.jpg"
+                    },
+                    "update": 1588180959
+                },
+                "location": {
+                    "city": "Syd",
+                    "region": "New South Wales",
+                    "region_code": "AU.02",
+                    "country": "Australia",
+                    "country_code": "AU",
+                    "continent": "Oceania",
+                    "continent_code": "OC",
+                    "latitude": -33.864857,
+                    "longitude": 151.208782,
+                    "timezone": "Australia/Sydney",
+                    "wikipedia": "https://en.wikipedia.org/wiki/Sydney"
+                }
+            },
+            {
+                "id": "1384974006",
+                "status": "active",
+                "title": "Cabo San Lucas: Villa del Palmar, Médano Beach",
+                "image": {
+                    "current": {
+                        "icon": "https://images-webcams.windy.com/06/1384974006/current/icon/1384974006.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/06/1384974006/current/thumbnail/1384974006.jpg",
+                        "preview": "https://images-webcams.windy.com/06/1384974006/current/preview/1384974006.jpg",
+                        "toenail": "https://images-webcams.windy.com/06/1384974006/current/thumbnail/1384974006.jpg"
+                    },
+                    "sizes": {
+                        "icon": {
+                            "width": 48,
+                            "height": 48
+                        },
+                        "thumbnail": {
+                            "width": 200,
+                            "height": 112
+                        },
+                        "preview": {
+                            "width": 400,
+                            "height": 224
+                        },
+                        "toenail": {
+                            "width": 200,
+                            "height": 112
+                        }
+                    },
+                    "daylight": {
+                        "icon": "https://images-webcams.windy.com/06/1384974006/daylight/icon/1384974006.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/06/1384974006/daylight/thumbnail/1384974006.jpg",
+                        "preview": "https://images-webcams.windy.com/06/1384974006/daylight/preview/1384974006.jpg",
+                        "toenail": "https://images-webcams.windy.com/06/1384974006/daylight/thumbnail/1384974006.jpg"
+                    },
+                    "update": 1588180950
+                },
+                "location": {
+                    "city": "Cabo San Lucas",
+                    "region": "Baja California Sur",
+                    "region_code": "MX.03",
+                    "country": "Mexico",
+                    "country_code": "MX",
+                    "continent": "North America",
+                    "continent_code": "NA",
+                    "latitude": 22.894807,
+                    "longitude": -109.896771,
+                    "timezone": "America/Mazatlan",
+                    "wikipedia": "https://en.wikipedia.org/wiki/Cabo San Lucas"
+                }
+            },
+            {
+                "id": "1249044918",
+                "status": "active",
+                "title": "Fort Myers Beach: Diamond Head Beach Resort Roof",
+                "image": {
+                    "current": {
+                        "icon": "https://images-webcams.windy.com/18/1249044918/current/icon/1249044918.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/18/1249044918/current/thumbnail/1249044918.jpg",
+                        "preview": "https://images-webcams.windy.com/18/1249044918/current/preview/1249044918.jpg",
+                        "toenail": "https://images-webcams.windy.com/18/1249044918/current/thumbnail/1249044918.jpg"
+                    },
+                    "sizes": {
+                        "icon": {
+                            "width": 48,
+                            "height": 48
+                        },
+                        "thumbnail": {
+                            "width": 200,
+                            "height": 112
+                        },
+                        "preview": {
+                            "width": 400,
+                            "height": 224
+                        },
+                        "toenail": {
+                            "width": 200,
+                            "height": 112
+                        }
+                    },
+                    "daylight": {
+                        "icon": "https://images-webcams.windy.com/18/1249044918/daylight/icon/1249044918.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/18/1249044918/daylight/thumbnail/1249044918.jpg",
+                        "preview": "https://images-webcams.windy.com/18/1249044918/daylight/preview/1249044918.jpg",
+                        "toenail": "https://images-webcams.windy.com/18/1249044918/daylight/thumbnail/1249044918.jpg"
+                    },
+                    "update": 1588180609
+                },
+                "location": {
+                    "city": "Fort Myers Beach",
+                    "region": "Florida",
+                    "region_code": "US.FL",
+                    "country": "United States",
+                    "country_code": "US",
+                    "continent": "North America",
+                    "continent_code": "NA",
+                    "latitude": 26.43821,
+                    "longitude": -81.923437,
+                    "timezone": "America/New_York",
+                    "wikipedia": "https://en.wikipedia.org/wiki/Fort Myers Beach, Florida"
+                }
+            },
+            {
+                "id": "1473374057",
+                "status": "active",
+                "title": "Venice: Rialto Bridge",
+                "image": {
+                    "current": {
+                        "icon": "https://images-webcams.windy.com/57/1473374057/current/icon/1473374057.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/57/1473374057/current/thumbnail/1473374057.jpg",
+                        "preview": "https://images-webcams.windy.com/57/1473374057/current/preview/1473374057.jpg",
+                        "toenail": "https://images-webcams.windy.com/57/1473374057/current/thumbnail/1473374057.jpg"
+                    },
+                    "sizes": {
+                        "icon": {
+                            "width": 48,
+                            "height": 48
+                        },
+                        "thumbnail": {
+                            "width": 200,
+                            "height": 112
+                        },
+                        "preview": {
+                            "width": 400,
+                            "height": 224
+                        },
+                        "toenail": {
+                            "width": 200,
+                            "height": 112
+                        }
+                    },
+                    "daylight": {
+                        "icon": "https://images-webcams.windy.com/57/1473374057/daylight/icon/1473374057.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/57/1473374057/daylight/thumbnail/1473374057.jpg",
+                        "preview": "https://images-webcams.windy.com/57/1473374057/daylight/preview/1473374057.jpg",
+                        "toenail": "https://images-webcams.windy.com/57/1473374057/daylight/thumbnail/1473374057.jpg"
+                    },
+                    "update": 1588170029
+                },
+                "location": {
+                    "city": "Venice",
+                    "region": "Veneto",
+                    "region_code": "IT.20",
+                    "country": "Italy",
+                    "country_code": "IT",
+                    "continent": "Europe",
+                    "continent_code": "EU",
+                    "latitude": 45.43723,
+                    "longitude": 12.335206,
+                    "timezone": "Europe/Rome",
+                    "wikipedia": "https://it.wikipedia.org/wiki/Venezia"
+                }
+            },
+            {
+                "id": "1171033401",
+                "status": "active",
+                "title": "La Vinuela: Viñuela - Málaga",
+                "image": {
+                    "current": {
+                        "icon": "https://images-webcams.windy.com/01/1171033401/current/icon/1171033401.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/01/1171033401/current/thumbnail/1171033401.jpg",
+                        "preview": "https://images-webcams.windy.com/01/1171033401/current/preview/1171033401.jpg",
+                        "toenail": "https://images-webcams.windy.com/01/1171033401/current/thumbnail/1171033401.jpg"
+                    },
+                    "sizes": {
+                        "icon": {
+                            "width": 48,
+                            "height": 48
+                        },
+                        "thumbnail": {
+                            "width": 200,
+                            "height": 112
+                        },
+                        "preview": {
+                            "width": 400,
+                            "height": 224
+                        },
+                        "toenail": {
+                            "width": 200,
+                            "height": 112
+                        }
+                    },
+                    "daylight": {
+                        "icon": "https://images-webcams.windy.com/01/1171033401/daylight/icon/1171033401.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/01/1171033401/daylight/thumbnail/1171033401.jpg",
+                        "preview": "https://images-webcams.windy.com/01/1171033401/daylight/preview/1171033401.jpg",
+                        "toenail": "https://images-webcams.windy.com/01/1171033401/daylight/thumbnail/1171033401.jpg"
+                    },
+                    "update": 1588180879
+                },
+                "location": {
+                    "city": "La Vinuela",
+                    "region": "Andalusia",
+                    "region_code": "ES.51",
+                    "country": "Spain",
+                    "country_code": "ES",
+                    "continent": "Europe",
+                    "continent_code": "EU",
+                    "latitude": 36.858472,
+                    "longitude": -4.155407,
+                    "timezone": "Europe/Madrid",
+                    "wikipedia": "https://es.wikipedia.org/wiki/La Viñuela (Granada)"
+                }
+            },
+            {
+                "id": "1284198909",
+                "status": "active",
+                "title": "Sorrento",
+                "image": {
+                    "current": {
+                        "icon": "https://images-webcams.windy.com/09/1284198909/current/icon/1284198909.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/09/1284198909/current/thumbnail/1284198909.jpg",
+                        "preview": "https://images-webcams.windy.com/09/1284198909/current/preview/1284198909.jpg",
+                        "toenail": "https://images-webcams.windy.com/09/1284198909/current/thumbnail/1284198909.jpg"
+                    },
+                    "sizes": {
+                        "icon": {
+                            "width": 48,
+                            "height": 48
+                        },
+                        "thumbnail": {
+                            "width": 200,
+                            "height": 112
+                        },
+                        "preview": {
+                            "width": 400,
+                            "height": 224
+                        },
+                        "toenail": {
+                            "width": 200,
+                            "height": 112
+                        }
+                    },
+                    "daylight": {
+                        "icon": "https://images-webcams.windy.com/09/1284198909/daylight/icon/1284198909.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/09/1284198909/daylight/thumbnail/1284198909.jpg",
+                        "preview": "https://images-webcams.windy.com/09/1284198909/daylight/preview/1284198909.jpg",
+                        "toenail": "https://images-webcams.windy.com/09/1284198909/daylight/thumbnail/1284198909.jpg"
+                    },
+                    "update": 1588180310
+                },
+                "location": {
+                    "city": "Sorrento",
+                    "region": "Campania",
+                    "region_code": "IT.04",
+                    "country": "Italy",
+                    "country_code": "IT",
+                    "continent": "Europe",
+                    "continent_code": "EU",
+                    "latitude": 40.62366,
+                    "longitude": 14.363422,
+                    "timezone": "Europe/Rome",
+                    "wikipedia": "https://it.wikipedia.org/wiki/Sorrento"
+                }
+            },
+            {
+                "id": "1512053133",
+                "status": "active",
+                "title": "Cape Town: The Twelve Apostles",
+                "image": {
+                    "current": {
+                        "icon": "https://images-webcams.windy.com/33/1512053133/current/icon/1512053133.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/33/1512053133/current/thumbnail/1512053133.jpg",
+                        "preview": "https://images-webcams.windy.com/33/1512053133/current/preview/1512053133.jpg",
+                        "toenail": "https://images-webcams.windy.com/33/1512053133/current/thumbnail/1512053133.jpg"
+                    },
+                    "sizes": {
+                        "icon": {
+                            "width": 48,
+                            "height": 48
+                        },
+                        "thumbnail": {
+                            "width": 200,
+                            "height": 112
+                        },
+                        "preview": {
+                            "width": 400,
+                            "height": 224
+                        },
+                        "toenail": {
+                            "width": 200,
+                            "height": 112
+                        }
+                    },
+                    "daylight": {
+                        "icon": "https://images-webcams.windy.com/33/1512053133/daylight/icon/1512053133.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/33/1512053133/daylight/thumbnail/1512053133.jpg",
+                        "preview": "https://images-webcams.windy.com/33/1512053133/daylight/preview/1512053133.jpg",
+                        "toenail": "https://images-webcams.windy.com/33/1512053133/daylight/thumbnail/1512053133.jpg"
+                    },
+                    "update": 1588180147
+                },
+                "location": {
+                    "city": "Cape Town",
+                    "region": "Western Cape",
+                    "region_code": "ZA.11",
+                    "country": "South Africa",
+                    "country_code": "ZA",
+                    "continent": "Africa",
+                    "continent_code": "AF",
+                    "latitude": -33.983516,
+                    "longitude": 18.358938,
+                    "timezone": "Africa/Johannesburg",
+                    "wikipedia": "https://en.wikipedia.org/wiki/Cape Town"
+                }
+            },
+            {
+                "id": "1206745451",
+                "status": "active",
+                "title": "Stare Mesto: Prague - Castle",
+                "image": {
+                    "current": {
+                        "icon": "https://images-webcams.windy.com/51/1206745451/current/icon/1206745451.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/51/1206745451/current/thumbnail/1206745451.jpg",
+                        "preview": "https://images-webcams.windy.com/51/1206745451/current/preview/1206745451.jpg",
+                        "toenail": "https://images-webcams.windy.com/51/1206745451/current/thumbnail/1206745451.jpg"
+                    },
+                    "sizes": {
+                        "icon": {
+                            "width": 48,
+                            "height": 48
+                        },
+                        "thumbnail": {
+                            "width": 200,
+                            "height": 112
+                        },
+                        "preview": {
+                            "width": 400,
+                            "height": 224
+                        },
+                        "toenail": {
+                            "width": 200,
+                            "height": 112
+                        }
+                    },
+                    "daylight": {
+                        "icon": "https://images-webcams.windy.com/51/1206745451/daylight/icon/1206745451.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/51/1206745451/daylight/thumbnail/1206745451.jpg",
+                        "preview": "https://images-webcams.windy.com/51/1206745451/daylight/preview/1206745451.jpg",
+                        "toenail": "https://images-webcams.windy.com/51/1206745451/daylight/thumbnail/1206745451.jpg"
+                    },
+                    "update": 1588180581
+                },
+                "location": {
+                    "city": "Stare Mesto",
+                    "region": "Central Moravia",
+                    "region_code": "CZ.84",
+                    "country": "Czechia",
+                    "country_code": "CZ",
+                    "continent": "Europe",
+                    "continent_code": "EU",
+                    "latitude": 50.085482,
+                    "longitude": 14.414127,
+                    "timezone": "Europe/Prague",
+                    "wikipedia": "https://cs.wikipedia.org/wiki/Staré Město (okres Uherské Hradiště)"
+                }
+            },
+            {
+                "id": "1549489452",
+                "status": "active",
+                "title": "London: Big Ben - Westminster",
+                "image": {
+                    "current": {
+                        "icon": "https://images-webcams.windy.com/52/1549489452/current/icon/1549489452.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/52/1549489452/current/thumbnail/1549489452.jpg",
+                        "preview": "https://images-webcams.windy.com/52/1549489452/current/preview/1549489452.jpg",
+                        "toenail": "https://images-webcams.windy.com/52/1549489452/current/thumbnail/1549489452.jpg"
+                    },
+                    "sizes": {
+                        "icon": {
+                            "width": 48,
+                            "height": 48
+                        },
+                        "thumbnail": {
+                            "width": 200,
+                            "height": 112
+                        },
+                        "preview": {
+                            "width": 400,
+                            "height": 224
+                        },
+                        "toenail": {
+                            "width": 200,
+                            "height": 112
+                        }
+                    },
+                    "daylight": {
+                        "icon": "https://images-webcams.windy.com/52/1549489452/daylight/icon/1549489452.jpg",
+                        "thumbnail": "https://images-webcams.windy.com/52/1549489452/daylight/thumbnail/1549489452.jpg",
+                        "preview": "https://images-webcams.windy.com/52/1549489452/daylight/preview/1549489452.jpg",
+                        "toenail": "https://images-webcams.windy.com/52/1549489452/daylight/thumbnail/1549489452.jpg"
+                    },
+                    "update": 1588180543
+                },
+                "location": {
+                    "city": "London",
+                    "region": "England",
+                    "region_code": "GB.ENG",
+                    "country": "United Kingdom",
+                    "country_code": "GB",
+                    "continent": "Europe",
+                    "continent_code": "EU",
+                    "latitude": 51.501076,
+                    "longitude": -0.11943,
+                    "timezone": "Europe/London",
+                    "wikipedia": "https://en.wikipedia.org/wiki/London"
+                }
+            }
+        ]
+    }
+}
