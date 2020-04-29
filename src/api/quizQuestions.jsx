@@ -1,13 +1,27 @@
-var quizQuestions = [
+import React from 'react';
+import balance from './zodiacSigns/balance.png';
+import belier from './zodiacSigns/belier.png';
+import cancer from './zodiacSigns/cancer.png';
+import capricorne from './zodiacSigns/capricorne.png';
+import gemeaux from './zodiacSigns/gemeaux.png';
+import lion from './zodiacSigns/lion.png';
+import poisson from './zodiacSigns/poisson.png';
+import sagittaire from './zodiacSigns/sagittaire.png';
+import scorpion from './zodiacSigns/scorpion.png';
+import taureau from './zodiacSigns/taureau.png';
+import verseau from './zodiacSigns/verseau.png';
+import vierge from './zodiacSigns/vierge.png';
+
+const quizQuestions = [
     {
         question: "When you eat a pizza, do you prefere :",
         answers: [
             {
-                type: "Positive",
+                type: "Pos",
                 content: "Tomato based"
             },
             {
-                type: "Negative",
+                type: "Neg",
                 content: "Cream based"
             }
         ]
@@ -16,19 +30,19 @@ var quizQuestions = [
         question: "What is you favorite animal ?",
         answers: [
             {
-                type: "Negative",
+                type: "Neg",
                 content: "Giraffe"
             },
             {
-                type: "Positive",
+                type: "Pos",
                 content: "Beaver"
             },
             {
-                type: "Positive",
+                type: "Pos",
                 content: "Pengiun"
             },
             {
-                type: "Negative",
+                type: "Neg",
                 content: "Kagaroo"
             }
         ]
@@ -37,19 +51,19 @@ var quizQuestions = [
         question: "Where do you see yourself in a few weeks ?",
         answers: [
             {
-                type: "Positive",
+                type: "Pos",
                 content: "Rome"
             },
             {
-                type: "Positive",
+                type: "Pos",
                 content: "Bora Bora"
             },
             {
-                type: "Negative",
+                type: "Neg",
                 content: "Home, obviously"
             },
             {
-                type: "Negative",
+                type: "Neg",
                 content: "Six feet under"
             }
         ]
@@ -58,19 +72,19 @@ var quizQuestions = [
         question: "How do you want to work :",
         answers: [
             {
-                type: "Positive",
+                type: "Pos",
                 content: "In a cool start-up"
             },
             {
-                type: "Negative",
+                type: "Neg",
                 content: "In a big international company"
             },
             {
-                type: "Positive",
+                type: "Pos",
                 content: "As a nomad digital"
             },
             {
-                type: "Negative",
+                type: "Neg",
                 content: "To what ?"
             }
         ]
@@ -79,19 +93,19 @@ var quizQuestions = [
         question: "What kind of sport do you like ?",
         answers: [
             {
-                type: "Positive",
+                type: "Pos",
                 content: "Indoors sports"
             },
             {
-                type: "Negative",
+                type: "Neg",
                 content: "Outdoors sports"
             },
             {
-                type: "Positive",
+                type: "Pos",
                 content: "In bed sports"
             },
             {
-                type: "Negative",
+                type: "Neg",
                 content: "None"
             }
         ]
@@ -100,19 +114,19 @@ var quizQuestions = [
         question: "What is you favorite cocktail ?",
         answers: [
             {
-                type: "Positive",
+                type: "Pos",
                 content: "Caipirinha"
             },
             {
-                type: "Negative",
+                type: "Neg",
                 content: "Dry martini"
             },
             {
-                type: "Positive",
+                type: "Pos",
                 content: "Bloody mary"
             },
             {
-                type: "Negative",
+                type: "Neg",
                 content: "Virgin Pina Colada"
             }
         ]
@@ -121,52 +135,52 @@ var quizQuestions = [
         question: "And finally, what is your Zodiac symbol ?",
         answers: [
             {
-                type: "Positive",
-                content: "Aries"
+                type: "Pos",
+                content: <img src={belier} alt="blabla" />
             },
             {
-                type: "Negative",
-                content: "Taurus"
+                type: "Neg",
+                content: <img src={taureau} alt="blabla" />
             },
             {
-                type: "Positive",
-                content: "Gemini"
+                type: "Pos",
+                content: <img src={gemeaux} alt="blabla" />
             },
             {
-                type: "Negative",
-                content: "Cancer"
+                type: "Neg",
+                content: <img src={cancer} alt="blabla" />
             },
             {
-              type: "Positive",
-              content: "Leo"
+              type: "Pos",
+              content: <img src={lion} alt="blabla" />
           },
           {
-              type: "Negative",
-              content: "Virgo"
+              type: "Neg",
+              content: <img src={vierge} alt="blabla" />
           },
           {
-              type: "Positive",
-              content: "Libra"
+              type: "Pos",
+              content: <img src={balance} alt="blabla" />
           },
           {
-              type: "Negative",
-              content: "Scropio"
+              type: "Neg",
+              content: <img src={scorpion} alt="blabla" />
           },
           {
-            type: "Positive",
-            content: "Sagittarius"
+            type: "Pos",
+            content: <img src={sagittaire} alt="blabla" />
         },
         {
-            type: "Negative",
-            content: "Capricorn"
+            type: "Neg",
+            content: <img src={capricorne} alt="blabla" />
         },
         {
-            type: "Positive",
-            content: "Aquarius"
+            type: "Pos",
+            content: <img src={verseau} alt="blabla" />
         },
         {
-            type: "Negative",
-            content: "Pisces"
+            type: "Neg",
+            content: <img src={poisson} alt="blabla" />
         }
         ]
     }
