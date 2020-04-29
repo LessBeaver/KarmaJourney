@@ -1,24 +1,38 @@
 .Modal {
-    overlay: {
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        backgroundColor: 'rgba(255, 255, 255, 0.75)'
-      },
-      content: {
-        position: 'absolute',
-        top: '40px',
-        left: '40px',
-        right: '40px',
-        bottom: '40px',
-        border: '1px solid #ccc',
-        background: '#fff',
-        overflow: 'auto',
-        WebkitOverflowScrolling: 'touch',
-        borderRadius: '4px',
-        outline: 'none',
-        padding: '20px'
-      }
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    background-color: papayawhip;
+    border-radius: 145px;
+  }
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('bgPopup.jpg');
+}
+
+.ModalQuote {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 36px;
+  align-content: center;
+}
+
+.ModalQuote span {
+  margin-top: 25%;
+}
+
+.ModalButton {
+  width: 20%;
+  top: 80%;
+  left: 40%;
+  position: absolute;
+  margin: 8px 0 2% 2%;
 }

@@ -14,26 +14,19 @@ function Popup () {
                 </button>
             </div>
             <Modal 
-            className="Modal"
+            className="Modal" 
+            overlayClassName="Overlay"
             isOpen={modalIsOpen} 
             onRequestClose={() => setModalOpen(false)}
-            style={{
-                overlay: {
-                    backgroundColor: '#e6ffff'
-                }
-            }}
             >
                 <div>
-                    <h2>C'est le jeu ma pauvre Lucette</h2>
+                    <div  className="ModalQuote">
+                        <span>C'est le jeu ma pauvre Lucette</span>
+                    </div>
                     <button 
+                    className="ModalButton"
                     type="button" 
                     onClick={() => setModalOpen(false)} 
-                    style={{
-                        width: '20%',
-                        position: 'absolute',
-                        bottom: '0',
-                        right: '0'
-                    }}
                     >
                         You Loose
                     </button>
