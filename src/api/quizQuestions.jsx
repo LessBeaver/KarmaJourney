@@ -11,11 +11,13 @@ import taureau from './zodiacSigns/taureau.png';
 import verseau from './zodiacSigns/verseau.png';
 import vierge from './zodiacSigns/vierge.png';
 import balance from './zodiacSigns/balance.png';
+// import sealBg from './bgQuestions/sealBg.jpg';
+// import sharkBg from './bgQuestions/sharkBg.jpg';
 
 const quizQuestions = [
     {
         question: "When you eat a pizza, do you prefere :",
-        url: ""
+        url: "./bgQuestions/sealBg.jpg",
         answers: [
             {
                 type: "Pos",
@@ -29,6 +31,7 @@ const quizQuestions = [
     },
     {
         question: "What is you favorite animal ?",
+        url: "./bgQuestions/sharkBg.jpg",
         answers: [
             {
                 type: "Neg",

@@ -16,7 +16,7 @@ class QuizPage extends Component {
       answer: "",
       answersCount: {},
       result: "",
-      questionBg: '',
+      bgImage: "",
     };
 
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
@@ -72,7 +72,6 @@ class QuizPage extends Component {
     }));
   }
   
-
   setNextQuestion() {
     const counter = this.state.counter + 1;
     const questionId = this.state.questionId + 1;
