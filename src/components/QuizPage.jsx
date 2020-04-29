@@ -38,7 +38,7 @@ class QuizPage extends Component {
       randomIndex;
 
     // While there remain elements to shuffle...
-    while (0 !== currentIndex) {
+    while (0 !== currentIndex) {      array[randomIndex] = temporaryValue;
       // Pick a remaining element...
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex -= 1;

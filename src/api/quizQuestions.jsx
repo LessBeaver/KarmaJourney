@@ -15,6 +15,7 @@ import balance from './zodiacSigns/balance.png';
 const quizQuestions = [
     {
         question: "When you eat a pizza, do you prefere :",
+        url: ""
         answers: [
             {
                 type: "Pos",
@@ -38,11 +39,11 @@ const quizQuestions = [
                 content: "Beaver"
             },
             {
-                type: "Pos",
+                type: "Positif",
                 content: "Pengiun"
             },
             {
-                type: "Neg",
+                type: "Negatif",
                 content: "Kagaroo"
             }
         ]
@@ -51,7 +52,7 @@ const quizQuestions = [
         question: "Where do you see yourself in a few weeks ?",
         answers: [
             {
-                type: "Pos",
+                type: "Positif",
                 content: "Rome"
             },
             {
@@ -59,7 +60,7 @@ const quizQuestions = [
                 content: "Bora Bora"
             },
             {
-                type: "Neg",
+                type: "Negatif",
                 content: "Home, obviously"
             },
             {
@@ -72,7 +73,7 @@ const quizQuestions = [
         question: "How do you want to work :",
         answers: [
             {
-                type: "Pos",
+                type: "Positif",
                 content: "In a cool start-up"
             },
             {
@@ -84,7 +85,7 @@ const quizQuestions = [
                 content: "As a nomad digital"
             },
             {
-                type: "Neg",
+                type: "Negatif",
                 content: "To what ?"
             }
         ]
@@ -97,11 +98,11 @@ const quizQuestions = [
                 content: "Indoors sports"
             },
             {
-                type: "Neg",
+                type: "Negatif",
                 content: "Outdoors sports"
             },
             {
-                type: "Pos",
+                type: "Positif",
                 content: "In bed sports"
             },
             {
@@ -114,7 +115,7 @@ const quizQuestions = [
         question: "What is you favorite cocktail ?",
         answers: [
             {
-                type: "Pos",
+                type: "Positif",
                 content: "Caipirinha"
             },
             {
@@ -126,7 +127,7 @@ const quizQuestions = [
                 content: "Bloody mary"
             },
             {
-                type: "Neg",
+                type: "Negatif",
                 content: "Virgin Pina Colada"
             }
         ]

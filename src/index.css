@@ -122,7 +122,7 @@ body {
 
 .fade-enter.fade-enter-active {
   opacity: 1;
-  transition: opacity 0.5s ease-in-out 0.3s;
+  transition: opacity 0.2s ease-in-out 0.3s;
 }
 
 .fade-leave {
@@ -135,7 +135,7 @@ body {
 
 .fade-leave.fade-leave-active {
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .fade-appear {
@@ -144,6 +144,6 @@ body {
 
 .fade-appear.fade-appear-active {
   opacity: 1;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 
