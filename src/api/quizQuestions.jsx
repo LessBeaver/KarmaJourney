@@ -153,35 +153,35 @@ const quizQuestions = [
             {
               type: "Pos",
               content: <img src={lion} alt="blabla" />
-          },
-          {
-              type: "Neg",
-              content: <img src={vierge} alt="blabla" />
-          },
-          {
-              type: "Pos",
-              content: <img src={balance} alt="blabla" />
-          },
-          {
-              type: "Neg",
-              content: <img src={scorpion} alt="blabla" />
-          },
-          {
-            type: "Pos",
-            content: <img src={sagittaire} alt="blabla" />
-        },
-        {
-            type: "Neg",
-            content: <img src={capricorne} alt="blabla" />
-        },
-        {
-            type: "Pos",
-            content: <img src={verseau} alt="blabla" />
-        },
-        {
-            type: "Neg",
-            content: <img src={poisson} alt="blabla" />
-        }
+            },
+            {
+                type: "Neg",
+                content: <img src={vierge} alt="blabla" />
+            },
+            {
+                type: "Pos",
+                content: <img src={balance} alt="blabla" />
+            },
+            {
+                type: "Neg",
+                content: <img src={scorpion} alt="blabla" />
+            },
+            {
+                type: "Pos",
+                content: <img src={sagittaire} alt="blabla" />
+            },
+            {
+                type: "Neg",
+                content: <img src={capricorne} alt="blabla" />
+            },
+            {
+                type: "Pos",
+                content: <img src={verseau} alt="blabla" />
+            },
+            {
+                type: "Neg",
+                content: <img src={poisson} alt="blabla" />
+            }
         ]
     }
   ];
