@@ -1,5 +1,4 @@
 import React from 'react';
-import balance from './zodiacSigns/balance.png';
 import belier from './zodiacSigns/belier.png';
 import cancer from './zodiacSigns/cancer.png';
 import capricorne from './zodiacSigns/capricorne.png';
@@ -11,6 +10,7 @@ import scorpion from './zodiacSigns/scorpion.png';
 import taureau from './zodiacSigns/taureau.png';
 import verseau from './zodiacSigns/verseau.png';
 import vierge from './zodiacSigns/vierge.png';
+import balance from './zodiacSigns/balance.png';
 
 const quizQuestions = [
     {
@@ -151,8 +151,8 @@ const quizQuestions = [
                 content: <img src={cancer} alt="blabla" />
             },
             {
-              type: "Pos",
-              content: <img src={lion} alt="blabla" />
+                type: "Pos",
+                content: <img src={lion} alt="blabla" />
             },
             {
                 type: "Neg",
