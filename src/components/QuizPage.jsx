@@ -124,7 +124,6 @@ class QuizPage extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>React Quiz</h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
