@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Quiz from "../components/Quiz"
 import quizQuestions from "../api/quizQuestions";
-import Result from "../components/Result";
+import Result from "./results/Result";
 import "./QuizPage.css";
 
 class QuizPage extends Component {

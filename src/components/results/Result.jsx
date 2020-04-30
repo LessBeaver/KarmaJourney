@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { CSSTransitionGroup } from 'react-transition-group';
-import Popup from './popup/Popup';
+import Popup from '../popup/Popup';
 
 function Result(props) {
   return (
