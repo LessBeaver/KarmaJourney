@@ -13,3 +13,12 @@
   padding: 20px;
   font-size: 3rem;
 }
+
+.App {
+  background-image: url(./journey.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+  height: 90vh;
+  padding-top: 20vh;
+}

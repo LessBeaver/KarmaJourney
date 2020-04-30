@@ -6,9 +6,14 @@ class Home extends React.Component {
   render() {
     return (
       <div className="homebg">
-        <Link to="QuizPage" className="">
-          <button className="play" type="button">Play now !</button>
-        </Link>
+        <div className="title">
+          <h2>Find out what trip your karma has in store for you...</h2>
+        </div>
+        <div className="Link">
+          <Link to="QuizPage">
+            <button className="btn-grad" type="button">Play now !</button>
+          </Link>
+        </div>
       </div>
     );
   }
