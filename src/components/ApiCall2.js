@@ -38,8 +38,9 @@ export default class ApiCall2 extends React.Component {
               title="this.state.webcam.title" 
               src={this.state.webcam.player.day.embed}></iframe>
             
-            <p className="Présentationwiki">Also, Wikipedia is your best friend, </p>  
-              <a className="AResult"href={this.state.webcam.location.wikipedia}>Click Here</a>
+            <div className="Présentationwiki">
+              <a className="AResult"href={this.state.webcam.location.wikipedia}>Also, Wikipedia is your best friend</a>
+            </div>
           </div>
         )}
       </div>
