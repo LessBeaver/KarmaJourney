@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
-import QuizPage from './components/QuizPage'
+import QuizPage from './components/QuizPage';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
   return (
     <div>
       <Router>
+        <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/QuizPage" exact component={QuizPage} />
