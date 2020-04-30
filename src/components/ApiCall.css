@@ -8,6 +8,7 @@
 
   }
 .DestinationName{
+    
     font-size:30px ;
     font-weight: bold;
     text-align: center;
@@ -44,4 +45,8 @@
 .AResult{
    margin-left: 49%;
    margin-right: 49%;
+}
+
+.Country{
+    text-transform: uppercase;
 }
