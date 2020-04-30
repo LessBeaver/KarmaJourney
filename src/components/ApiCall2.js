@@ -33,12 +33,12 @@ export default class ApiCall2 extends React.Component {
               src={this.state.webcam.image.daylight.preview}
               alt={this.state.webcam.title}
             /> 
-            <p> Pour te donner envie, je te propose de regarder la vidéo ci-dessous te présentant une journée passée à ta futur destination</p>    
+            <p className="PrésentationWebcam"> Pour te donner néanmoins envie, je te propose de regarder la vidéo ci-dessous te présentant une journée passée à ta futur destination</p>    
               <iframe className="Webcam"
     title="this.state.webcam.title" src={this.state.webcam.player.day.embed}></iframe>
     
-    <p>
-              tu peux déjà préparer ton voyage grâce à la participation de
+    <p className="Présentationwiki">
+              Tu peux également déjà préparer ton voyage grâce à la participation de
               wikipédia</p>  
               <a href={this.state.webcam.location.wikipedia}>ici</a>
           </div>
