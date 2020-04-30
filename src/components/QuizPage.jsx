@@ -101,21 +101,32 @@ class QuizPage extends Component {
 
   setResults(result) {
     if (result.length === 1) {
-      if(result[0] === 'Pos' || result[0] === 'Positif') {
+      if(result[0] === 'Pos') {
         this.setState({ 
           result: result[0],
           goodResult: true,
           badResult: false,
           });
-      }
-      if(result[0] === 'Neg' || result[0] === 'Negatif' ) {
+      } else if (result[0] === 'Positive') {
+          this.setState({ 
+          result: result[0],
+          goodResult: true,
+          badResult: false,
+          });
+      } else if (result[0] === 'Neg') {
         this.setState({
           result: result[0],
           badResult: true,
           goodResult: false,
-        })
-      }
-    } else {
+          });
+      } else if (result[0] === 'Negative') {
+        this.setState({
+          result: result[0],
+          badResult: true,
+          goodResult: false,
+        });
+      } 
+    }  else {
       this.setState({ 
         result: "Undetermined", 
         goodResult: true,
