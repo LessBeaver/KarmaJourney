@@ -1,5 +1,5 @@
 .QuizPage {
-  height: 100vh;
+  height: 90vh;
 }
 
 .QuizPage-Header {
@@ -18,19 +18,9 @@
   background-image: url(./journey.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  overflow: scroll;
   position: static;
   padding-top: 10vh;
   height: 90vh;
   font-family: 'Allura';
   font-size: 25px;
-}
-
-.answerOptions li {
-  font-size: 20px;
-}
-
-.Result {
-  background-image: none;
 }

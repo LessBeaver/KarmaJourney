@@ -137,11 +137,11 @@ const quizQuestions = [
               content: "Fire"
           },
           {
-              type: "Positif",
+              type: "Positive",
               content: "Water"
           },
           {
-              type: "Negatif",
+              type: "Negative",
               content: "Air"
           }
       ]
