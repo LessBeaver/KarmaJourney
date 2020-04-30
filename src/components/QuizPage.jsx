@@ -3,6 +3,8 @@ import Quiz from "../components/Quiz"
 import quizQuestions from "../api/quizQuestions";
 import Result from "./results/Result";
 import "./QuizPage.css";
+import ApiCall1 from './ApiCall1';
+import ApiCall2 from './ApiCall2';
 
 class QuizPage extends Component {
   constructor(props) {
@@ -16,6 +18,8 @@ class QuizPage extends Component {
       answer: "",
       answersCount: {},
       result: "",
+      badResult: false,
+      goodResult: false,
     };
 
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
@@ -97,7 +101,18 @@ class QuizPage extends Component {
 
   setResults(result) {
     if (result.length === 1) {
-      this.setState({ result: result[0] });
+      if(result[0] === 'Pos' || result[0] === 'Positif') {
+        this.setState({ 
+          result: result[0],
+          goodResult: true,
+          });
+      }
+      if(result[0] === 'Neg' || result[0] === 'Negatif' ) {
+        this.setState({
+          result: result[0],
+          badResult: true,
+        })
+      }
     } else {
       this.setState({ result: "Undetermined" });
     }
@@ -117,7 +132,14 @@ class QuizPage extends Component {
   }
 
   renderResult() {
-    return <Result quizResult={this.state.result} />;
+    const { goodResult } = this.props;
+    return <Result 
+          quizResult={this.state.result !==  goodResult ? 
+          <ApiCall1 /> 
+          :
+          <ApiCall2 />
+          } 
+          />;
   }
 
   render() {
