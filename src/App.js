@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div style={{ height: '100vh' }}>
       <Router>
         <Navbar />
         <Switch>
