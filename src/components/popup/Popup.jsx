@@ -8,9 +8,9 @@ function Popup () {
 
     return (
         <div>
-            <div>
-                <button type="button" onClick={() => setModalOpen(true)}>
-                    REJOUER
+            <div className="resultDiv">
+                <button type="button" className="resultButton" onClick={() => setModalOpen(true)}>
+                    Rejouer !
                 </button>
             </div>
             <Modal 
