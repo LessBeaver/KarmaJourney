@@ -105,16 +105,22 @@ class QuizPage extends Component {
         this.setState({ 
           result: result[0],
           goodResult: true,
+          badResult: false,
           });
       }
       if(result[0] === 'Neg' || result[0] === 'Negatif' ) {
         this.setState({
           result: result[0],
           badResult: true,
+          goodResult: false,
         })
       }
     } else {
-      this.setState({ result: "Undetermined" });
+      this.setState({ 
+        result: "Undetermined", 
+        goodResult: true,
+        badResult: false,
+      });
     }
   }
 
@@ -132,12 +138,12 @@ class QuizPage extends Component {
   }
 
   renderResult() {
-    const { goodResult } = this.props;
+    const { badResult } = this.props;
     return <Result 
-          quizResult={this.state.result !==  goodResult ? 
-          <ApiCall1 /> 
-          :
+          quizResult={this.state.result ===  badResult ? 
           <ApiCall2 />
+          :
+          <ApiCall1 /> 
           } 
           />;
   }
