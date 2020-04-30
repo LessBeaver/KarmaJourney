@@ -138,13 +138,13 @@ class QuizPage extends Component {
   }
 
   renderResult() {
-    const { badResult } = this.props;
+/*     const { badResult } = this.state; */
     return <Result 
           className="Result"
-          quizResult={this.state.result ===  badResult ? 
-          <ApiCall2 />
+          quizResult={this.state.result ===  this.state.badResult ? 
+          <ApiCall2 value={this.state.badResult}/>
           :
-          <ApiCall1 /> 
+          <ApiCall1 value={this.state.goodResult}/> 
           } 
           />;
   }
