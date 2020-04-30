@@ -34,9 +34,9 @@ export default class ApiCall1 extends React.Component {
             /> 
             <p className="PrésentationWebcam"> Pour te donner envie, je te propose de regarder la vidéo ci-dessous te présentant une journée passée à ta futur destination</p>    
               <iframe className="Webcam"
-    title="this.state.webcam.title" src={this.state.webcam.player.day.embed}></iframe>
-    
-    <p className="PrésentationWiki">
+              title="this.state.webcam.title" src={this.state.webcam.player.day.embed}></iframe>
+            
+            <p className="PrésentationWiki">
               Tu peux également déjà préparer ton voyage grâce à la participation de
               wikipédia:</p> <a className="AResult"href={this.state.webcam.location.wikipedia}>ici</a>
           </div>

@@ -1,9 +1,8 @@
 .Résultat{
     display: flex;
     flex-direction: column;
-    background:blanchedalmond;
+    background: transparent;
     border-radius: 5px;
-    box-shadow: #0000001c 0px 0px 10px 3px;
     width:100%;
     padding: 20px;
 
@@ -11,21 +10,15 @@
 .DestinationName{
     font-size:30px ;
     font-weight: bold;
-text-align: center;
-margin-top: 40px;
-
-
+    text-align: center;
+    margin: 15px 0;
 }
 .DestinationPicture {
-    height:500px;
-    margin-left:100px;
-    margin-right: 100px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    width: 60%;
+    margin: 0 auto;
 }
 .Webcam{
     height:500px;
-    margin:100px;
 }
 .Intro {
    font-weight: bold;
@@ -36,12 +29,13 @@ margin-top: 40px;
 .Intro2{
     font-weight: bold;
     font-size: 40px;
-    color:green;
+    color:whitesmoke;
     text-align: center;
 }
 
 .PrésentationWebcam{
     text-align: center;
+    margin: 10px 0;
 }
 .PrésentationWiki{
     text-align: center;

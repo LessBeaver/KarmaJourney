@@ -18,13 +18,18 @@
   background-image: url(./journey.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   position: static;
-  height: 90vh;
-  padding-top: 20vh;
+  height: 100%;
+  padding-top: 10vh;
   font-family: 'Allura';
   font-size: 25px;
 }
 
 .answerOptions li {
   font-size: 20px;
+}
+
+.Result {
+  background-image: none;
 }
