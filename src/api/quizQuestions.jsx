@@ -21,11 +21,11 @@ const quizQuestions = [
         answers: [
             {
                 type: "Pos",
-                content: "Tomato based"
+                content: "Tomato base"
             },
             {
                 type: "Neg",
-                content: "Cream based"
+                content: "Cream base"
             },
             {
               type: "Positive",
