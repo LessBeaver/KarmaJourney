@@ -38,7 +38,7 @@ export default class ApiCall1 extends React.Component {
             
             <p className="PrésentationWiki">
               Tu peux également déjà préparer ton voyage grâce à la participation de
-              wikipédia:</p> <a className="AResult"href={this.state.webcam.location.wikipedia}>ici</a>
+              wikipédia</p> <a className="AResult"href={this.state.webcam.location.wikipedia}>ici</a>
           </div>
         )}
       </div>
