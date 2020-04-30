@@ -21,4 +21,10 @@
   position: static;
   height: 90vh;
   padding-top: 20vh;
+  font-family: 'Allura';
+  font-size: 25px;
+}
+
+.answerOptions li {
+  font-size: 20px;
 }

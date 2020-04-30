@@ -13,17 +13,21 @@
 
 .Link {
   display: flex;
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 .btn-grad {
-  background-image: linear-gradient(to right, #403B4A 0%, #E7E9BB 51%, #403B4A 100%);
+  background-image: linear-gradient(to right, #e9d362 0%, #333333 51%, #e9d362 100%);
   padding: 6px 10px;
   border-radius: 10px;
-  height: auto;
-  width: 200px;
-  border: 1px solid black;
+  height: 70px;
+  width: 250px;
+  border: none;
   align-self: flex-end;
+  color: black;
+  background-color: transparent;
+  font-family: 'Allura';
+  font-size: 35px;
 }
 
 .btn-grad:hover {
@@ -31,7 +35,9 @@
 } 
 
 .title {
-  color: black;
+  font-family: 'Allura';
+  color: rgb(242, 215, 110);
+  text-shadow: black 0.1em 0.1em 0.2em;
   font-size: 35px;
   width: 80%;
   margin-top: 200px;

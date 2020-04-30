@@ -8,6 +8,8 @@
     align-items: center;
     justify-content: center;
     height: 10vh;
+    font-family: 'Allura';
+    font-size: 50px;
   }
 
   .navlink {
