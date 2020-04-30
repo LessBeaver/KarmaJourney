@@ -1,41 +1,39 @@
 .homebg {
-    background-image: url('./maldives.jpg');
+    background-image: url('./adventure.jpg');
     background-color: red;
     height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
-/* .play {
-  display: absolute;
-  background-image: linear-gradient(to right, #403B4A 0%, #E7E9BB 51%, #403B4A 100%);
-  padding: 6px 10px;
-  margin-top: 60vh;
-  border-radius: 10px;
-  height: auto;
-  width: 200px;
-  border: 1px solid black;
+.Link {
+  display: flex;
+  margin-top: 20%;
 }
-
-.play:hover {
-  background-position: right center; 
-}  */
 
 .btn-grad {
-  display: absolute;
-  background-image: linear-gradient(to right, #c21500 0%, #ffc500 51%, #c21500 100%);
+  background-image: linear-gradient(to right, #403B4A 0%, #E7E9BB 51%, #403B4A 100%);
   padding: 6px 10px;
-  margin-top: 60vh;
   border-radius: 10px;
   height: auto;
   width: 200px;
   border: 1px solid black;
+  align-self: flex-end;
 }
 
 .btn-grad:hover {
- background-position: right center;
- }
+  background-position: right center; 
+} 
+
+.title {
+  color: black;
+  font-size: 35px;
+  width: 80%;
+  margin-top: 200px;
+  text-align: center;
+}
