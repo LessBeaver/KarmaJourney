@@ -1,0 +1,53 @@
+.Résultat{
+    display: flex;
+    flex-direction: column;
+    background:blanchedalmond;
+    border-radius: 5px;
+    box-shadow: #0000001c 0px 0px 10px 3px;
+    width:100%;
+    padding: 20px;
+
+  }
+.DestinationName{
+    font-size:30px ;
+    font-weight: bold;
+text-align: center;
+margin-top: 40px;
+
+
+}
+.DestinationPicture {
+    height:500px;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.Webcam{
+    height:500px;
+    margin:100px;
+}
+.Intro {
+   font-weight: bold;
+   font-size: 40px;
+   color:red;
+   text-align: center;
+  } 
+.Intro2{
+    font-weight: bold;
+    font-size: 40px;
+    color:green;
+    text-align: center;
+}
+
+.PrésentationWebcam{
+    text-align: center;
+}
+.PrésentationWiki{
+    text-align: center;
+}
+
+.AResult{
+   margin-left: 49%;
+   margin-right: 49%;
+}
