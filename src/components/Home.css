@@ -22,10 +22,11 @@
   border-radius: 10px;
   border: 2px solid whitesmoke;
   height: auto;
-  width: 500px;
+  width: 350px;
   height: 100px;
   align-self: flex-end;
-  font-size: 25px;
+  font-family: 'Allura';
+  font-size: 35px;
   color: wheat;
 }
 
@@ -35,7 +36,9 @@
 } 
 
 .title {
-  color: black;
+  font-family: 'Allura';
+  color: rgb(242, 215, 110);
+  text-shadow: black 0.1em 0.1em 0.2em;
   font-size: 35px;
   width: 80%;
   margin-top: 200px;
