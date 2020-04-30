@@ -26,7 +26,7 @@ export default class ApiCall1 extends React.Component {
         ) : (
           <div className='Résultat'>
             <p className='Intro2'>Bravo! Grâce à ton bon karma, ta destination est :</p>
-            <div className='DestinationName'>{this.state.webcam.location.city} - {this.state.webcam.location.country} </div>
+            <div className='DestinationName'>{this.state.webcam.location.city} - <span className="Country">{this.state.webcam.location.country}</span> </div>
 
             <img className='DestinationPicture'
               src={this.state.webcam.image.daylight.preview}
