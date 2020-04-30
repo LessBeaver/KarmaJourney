@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class ApiCall extends React.Component {
+export default class ApiCall1 extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -11,7 +11,7 @@ export default class ApiCall extends React.Component {
 
   async componentDidMount() {
     const url =
-      "https://api.windy.com/api/webcams/v2/list/webcam=1583783403,1179853135,1384974006,1249044918,1473374057,1171033401,1284198909,1512053133,1206745451,1549489452?show=webcams:image,location,player&key=QuYS1wjNqXNc6LqfDlvVDbSvFGBM7uId";
+      "https://api.windy.com/api/webcams/v2/list/webcam=1514336662,1556382171,1399837432,1572925662,1548527857,1586276571,1355230575,1296343572,1521156303,1579952377?show=webcams:image,location,player&key=QuYS1wjNqXNc6LqfDlvVDbSvFGBM7uId";
     const response = await fetch(url);
     const data = await response.json();
     console.log(data);
