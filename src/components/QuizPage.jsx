@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Quiz from "../components/Quiz"
 import quizQuestions from "../api/quizQuestions";
-import Result from "../components/Result";
+import Result from "./results/Result";
 import "./QuizPage.css";
 
 class QuizPage extends Component {
@@ -37,7 +37,7 @@ class QuizPage extends Component {
       randomIndex;
 
     // While there remain elements to shuffle...
-    while (0 !== currentIndex) {
+    while (0 !== currentIndex) {      array[randomIndex] = temporaryValue;
       // Pick a remaining element...
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex -= 1;
@@ -70,7 +70,7 @@ class QuizPage extends Component {
       answer: answer,
     }));
   }
-
+  
   setNextQuestion() {
     const counter = this.state.counter + 1;
     const questionId = this.state.questionId + 1;
@@ -122,8 +122,8 @@ class QuizPage extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
+      <div className="QuizPage">
+        <div className="QuizPage-Header">
           <h2>Karma Journey</h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}

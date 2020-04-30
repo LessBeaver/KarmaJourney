@@ -1,31 +1,15 @@
+.QuizPage {
+  height: 100vh;
+}
 
-.App-logo {
-    animation: spin infinite 20s linear;
-    height: 80px;
-  }
-  
-  .App-header {
-    background-color: #222;
-    padding: 20px;
-    color: white;
-    text-align: center;
-  }
-  
-  .App-intro {
-    font-size: large;
-  }
+.QuizPage-Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
-  .App {
-    background-image: url(../cocktail.jpg);
-    background-size: cover;
-    height: 90vh;
-  }
-  
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
+.QuizPage-Header h2 {
+  color: white;
+  padding: 20px;
+  font-size: 3rem;
+} 

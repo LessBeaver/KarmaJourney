@@ -1,4 +1,5 @@
-/* import React from 'react';
+import React from 'react';
+import balance from './zodiacSigns/balance.png';
 import belier from './zodiacSigns/belier.png';
 import cancer from './zodiacSigns/cancer.png';
 import capricorne from './zodiacSigns/capricorne.png';
@@ -10,36 +11,23 @@ import scorpion from './zodiacSigns/scorpion.png';
 import taureau from './zodiacSigns/taureau.png';
 import verseau from './zodiacSigns/verseau.png';
 import vierge from './zodiacSigns/vierge.png';
-import balance from './zodiacSigns/balance.png'; */
-// import sealBg from './bgQuestions/sealBg.jpg';
-// import sharkBg from './bgQuestions/sharkBg.jpg';
 
 const quizQuestions = [
     {
         question: "When you eat a pizza, do you prefere :",
-        url: "./bgQuestions/sealBg.jpg",
         answers: [
             {
                 type: "Pos",
-                content: "Tomato base"
+                content: "Tomato based"
             },
             {
                 type: "Neg",
-                content: "Cream base"
-            },
-            {
-              type: "Positive",
-              content: "I hate pizza"
-          },
-          {
-              type: "Negative",
-              content: "Nutella base"
-          }
+                content: "Cream based"
+            }
         ]
     },
     {
         question: "What is you favorite animal ?",
-        url: "./bgQuestions/sharkBg.jpg",
         answers: [
             {
                 type: "Neg",
@@ -50,11 +38,11 @@ const quizQuestions = [
                 content: "Beaver"
             },
             {
-                type: "Positif",
+                type: "Pos",
                 content: "Pengiun"
             },
             {
-                type: "Negatif",
+                type: "Neg",
                 content: "Kagaroo"
             }
         ]
@@ -63,19 +51,19 @@ const quizQuestions = [
         question: "Where do you see yourself in a few weeks ?",
         answers: [
             {
-                type: "Positif",
+                type: "Pos",
                 content: "Rome"
             },
             {
-                type: "Positive",
+                type: "Pos",
                 content: "Bora Bora"
             },
             {
-                type: "Negatif",
+                type: "Neg",
                 content: "Home, obviously"
             },
             {
-                type: "Negative",
+                type: "Neg",
                 content: "Six feet under"
             }
         ]
@@ -84,7 +72,7 @@ const quizQuestions = [
         question: "How do you want to work :",
         answers: [
             {
-                type: "Positif",
+                type: "Pos",
                 content: "In a cool start-up"
             },
             {
@@ -92,11 +80,11 @@ const quizQuestions = [
                 content: "In a big international company"
             },
             {
-                type: "Positive",
+                type: "Pos",
                 content: "As a nomad digital"
             },
             {
-                type: "Negatif",
+                type: "Neg",
                 content: "To what ?"
             }
         ]
@@ -109,15 +97,15 @@ const quizQuestions = [
                 content: "Indoors sports"
             },
             {
-                type: "Negatif",
+                type: "Neg",
                 content: "Outdoors sports"
             },
             {
-                type: "Positif",
+                type: "Pos",
                 content: "In bed sports"
             },
             {
-                type: "Negative",
+                type: "Neg",
                 content: "None"
             }
         ]
@@ -126,7 +114,7 @@ const quizQuestions = [
         question: "What is you favorite cocktail ?",
         answers: [
             {
-                type: "Positif",
+                type: "Pos",
                 content: "Caipirinha"
             },
             {
@@ -134,34 +122,66 @@ const quizQuestions = [
                 content: "Dry martini"
             },
             {
-                type: "Positive",
+                type: "Pos",
                 content: "Bloody mary"
             },
             {
-                type: "Negatif",
+                type: "Neg",
                 content: "Virgin Pina Colada"
             }
         ]
     },
     {
-        question: "What is you favorite element ?",
+        question: "And finally, what is your Zodiac symbol ?",
         answers: [
             {
                 type: "Pos",
-                content: "Earth"
+                content: <img src={belier} alt="blabla" />
             },
             {
                 type: "Neg",
-                content: "Fire"
+                content: <img src={taureau} alt="blabla" />
             },
             {
-                type: "Positif",
-                content: "Water"
+                type: "Pos",
+                content: <img src={gemeaux} alt="blabla" />
             },
             {
-                type: "Negatif",
-                content: "Air"
-            }
+                type: "Neg",
+                content: <img src={cancer} alt="blabla" />
+            },
+            {
+              type: "Pos",
+              content: <img src={lion} alt="blabla" />
+          },
+          {
+              type: "Neg",
+              content: <img src={vierge} alt="blabla" />
+          },
+          {
+              type: "Pos",
+              content: <img src={balance} alt="blabla" />
+          },
+          {
+              type: "Neg",
+              content: <img src={scorpion} alt="blabla" />
+          },
+          {
+            type: "Pos",
+            content: <img src={sagittaire} alt="blabla" />
+        },
+        {
+            type: "Neg",
+            content: <img src={capricorne} alt="blabla" />
+        },
+        {
+            type: "Pos",
+            content: <img src={verseau} alt="blabla" />
+        },
+        {
+            type: "Neg",
+            content: <img src={poisson} alt="blabla" />
+        }
         ]
     }
   ];
