@@ -1,0 +1,15 @@
+[33m6dc20da[m[33m ([m[1;36mHEAD -> [m[1;32mapi-call[m[33m)[m ajout api call
+[33m5e3ba66[m[33m ([m[1;32mdev[m[33m)[m resolution package json
+[33m65f3212[m[33m ([m[1;31morigin/more-router-implementation[m[33m)[m conflicts after merge solved
+[33m8415c5c[m Merge pull request #1 from LessBeaver/popup
+[33mac71751[m[33m ([m[1;31morigin/router-implementation[m[33m)[m basic route implementation done
+[33m14769a5[m[33m ([m[1;31morigin/popup[m[33m)[m popup done, must improve css and display
+[33m804c5df[m add a popup
+[33mc406665[m add a comment to explain a function
+[33m660601e[m add gitignore
+[33m0eb4569[m add transition group package
+[33mb826bea[m add logo React
+[33mae73346[m add svg
+[33m8d800c5[m add api folder
+[33me77b2a6[m starting point of our project
+[33m20be130[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m Initialize project using Create React App
