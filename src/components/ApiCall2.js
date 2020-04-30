@@ -23,24 +23,23 @@ export default class ApiCall2 extends React.Component {
     return (
       <div>
         {this.state.loading || !this.state.webcam ? (
-          <div>...Je me lance !!!</div>
+          <div>...I'm <strong>loading</strong> !!!</div>
         ) : (
           <div className='Résultat'>
-            <p className='Intro'>Dommage! A cause de ton mauvais karma, ta destination est:</p>
+            <p className='Intro'>So bad ! Because of your bad karma, your next destination is :</p>
             <div className='DestinationName'>{this.state.webcam.location.city} - <span className="Country">{this.state.webcam.location.country}</span> </div>
 
             <img className='DestinationPicture'
               src={this.state.webcam.image.daylight.preview}
               alt={this.state.webcam.title}
             /> 
-            <p className="PrésentationWebcam"> Pour te donner néanmoins envie, je te propose de regarder la vidéo ci-dessous te présentant une journée passée à ta futur destination</p>    
+            <p className="PrésentationWebcam"> Perhaps, if you plan to go there, here is a small video to have a little taste about :</p>    
               <iframe className="Webcam"
-    title="this.state.webcam.title" src={this.state.webcam.player.day.embed}></iframe>
-    
-    <p className="Présentationwiki">
-              Tu peux également déjà préparer ton voyage grâce à la participation de
-              wikipédia</p>  
-              <a className="AResult"href={this.state.webcam.location.wikipedia}>ici</a>
+              title="this.state.webcam.title" 
+              src={this.state.webcam.player.day.embed}></iframe>
+            
+            <p className="Présentationwiki">Also, Wikipedia is your best friend, </p>  
+              <a className="AResult"href={this.state.webcam.location.wikipedia}>Click Here</a>
           </div>
         )}
       </div>

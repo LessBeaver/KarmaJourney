@@ -24,7 +24,7 @@
 .Intro {
    font-weight: bold;
    font-size: 40px;
-   color: white;
+   color: whitesmoke;
    text-align: center;
   } 
 .Intro2{
@@ -35,14 +35,19 @@
 }
 
 .PrésentationWebcam{
+    color: whitesmoke;
     text-align: center;
     margin: 10px 0;
 }
 .PrésentationWiki{
+    color: whitesmoke;
     text-align: center;
+    margin: 0 auto;
 }
 
 .AResult{
+    color: whitesmoke;
+    text-decoration: none;
    margin-left: 49%;
    margin-right: 49%;
 }
