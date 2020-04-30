@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import QuizPage from './components/QuizPage';
 import Navbar from './components/Navbar';
 import './App.css';
+
 
 function App() {
   return (
