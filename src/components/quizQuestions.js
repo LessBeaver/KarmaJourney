@@ -4,11 +4,11 @@ const quizQuestions = [
         answers: [
             {
                 type: "Pos",
-                content: "Tomato based"
+                content: "Tomato base"
             },
             {
                 type: "Neg",
-                content: "Cream based"
+                content: "Cream base"
             },
             {
               type: "Positif",
@@ -29,7 +29,7 @@ const quizQuestions = [
             },
             {
                 type: "Pos",
-                content: "Beaver"
+                content: "Raccoon"
             },
             {
                 type: "Positif",
@@ -46,7 +46,7 @@ const quizQuestions = [
         answers: [
             {
                 type: "Pos",
-                content: "Rome"
+                content: "Roma"
             },
             {
                 type: "Positif",
@@ -54,7 +54,7 @@ const quizQuestions = [
             },
             {
                 type: "Neg",
-                content: "Home, obviously"
+                content: "At home, obviously"
             },
             {
                 type: "Negatif",
@@ -63,7 +63,7 @@ const quizQuestions = [
         ]
     },
     {
-        question: "How do you want to work :",
+        question: "Where do you want to work :",
         answers: [
             {
                 type: "Pos",
@@ -79,7 +79,7 @@ const quizQuestions = [
             },
             {
                 type: "Negatif",
-                content: "To what ?"
+                content: "Work ? For what ?"
             }
         ]
     },
@@ -96,7 +96,7 @@ const quizQuestions = [
             },
             {
                 type: "Positif",
-                content: "In bed sports"
+                content: "Bed's sports"
             },
             {
                 type: "Negatif",

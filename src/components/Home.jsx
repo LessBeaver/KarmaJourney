@@ -7,7 +7,7 @@ class Home extends React.Component {
     return (
       <div className="homebg">
         <div className="title">
-          <h2>Find out what trip your karma has in store for you...</h2>
+          <h2>Find out which trip your karma has in store for you...</h2>
         </div>
         <div className="Link">
           <Link to="QuizPage">
