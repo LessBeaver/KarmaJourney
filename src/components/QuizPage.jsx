@@ -122,9 +122,8 @@ class QuizPage extends Component {
 
   render() {
     return (
-      <div className="QuizPage">
-        <div className="QuizPage-Header">
-          <h2>Karma Journey</h2>
+      <div className="App">
+        <div className="App-header">
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>

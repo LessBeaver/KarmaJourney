@@ -24,13 +24,6 @@ body {
   font-family: sans-serif;
 }
 
-.App {
-  background-image: url(./cocktail.jpg);
-  background-size: cover;
-  max-height: 100%;
-  height: auto;
-}
-
 .container {
   border-radius: 3px;
   margin: 0 auto;

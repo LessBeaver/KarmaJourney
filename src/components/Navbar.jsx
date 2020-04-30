@@ -5,13 +5,9 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <ul className="flex-row">
-        <li>
-          <Link to="/">
-            <p>Menu</p>
+          <Link className="navlink" to="/">
+            <h3>Karma Journey</h3>
           </Link>
-        </li>
-      </ul>
     </nav>
   );
 }

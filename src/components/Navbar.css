@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+  }
+
+  .navlink {
+      color: white;
+      text-decoration: none;
+  }
