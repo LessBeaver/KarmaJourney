@@ -37,6 +37,7 @@
 
 .resultDiv {
   display: flex;
+  justify-content: center;
 }
 
 .resultButton {
