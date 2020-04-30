@@ -13,17 +13,21 @@
 
 .Link {
   display: flex;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .btn-grad {
-  background-image: linear-gradient(to right, #403B4A 0%, #E7E9BB 51%, #403B4A 100%);
+  background-color: transparent;
   padding: 6px 10px;
   border-radius: 10px;
+  border: 2px solid whitesmoke;
   height: auto;
-  width: 200px;
+  width: 500px;
+  height: 100px;
   border: 1px solid black;
   align-self: flex-end;
+  font-size: 25px;
+  color: wheat;
 }
 
 .btn-grad:hover {
