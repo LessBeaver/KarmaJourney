@@ -1,7 +1,7 @@
 .homebg {
     background-image: url('./adventure.jpg');
     background-color: red;
-    height: 90vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,25 +13,26 @@
 
 .Link {
   display: flex;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .btn-grad {
-  background-image: linear-gradient(to right, #e9d362 0%, #333333 51%, #e9d362 100%);
+  background-color: transparent;
   padding: 6px 10px;
   border-radius: 10px;
-  height: 70px;
-  width: 250px;
-  border: none;
+  border: 2px solid whitesmoke;
+  height: auto;
+  width: 350px;
+  height: 100px;
   align-self: flex-end;
-  color: black;
-  background-color: transparent;
   font-family: 'Allura';
   font-size: 35px;
+  color: wheat;
 }
 
 .btn-grad:hover {
   background-position: right center; 
+  cursor: pointer;
 } 
 
 .title {
