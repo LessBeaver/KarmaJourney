@@ -25,9 +25,10 @@ export default class ApiCall1 extends React.Component {
           <div>...Je me lance !!!</div>
         ) : (
           <div>
+            <p>FELICITATION !!! Grâce à ton bon karma, ta destination est :</p>
             <div>{this.state.webcam.title}</div>
             <div>{this.state.webcam.location.country}</div>
-            <img src={this.state.webcam.image.current.preview} alt={this.state.webcam.title} />
+            <img src={this.state.webcam.image.daylight.preview} alt={this.state.webcam.title} />
           </div>
         )}
       </div>

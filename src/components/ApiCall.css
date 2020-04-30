@@ -1,0 +1,32 @@
+.Résultat{
+    display: flex;
+    flex-direction: column;
+    background:blanchedalmond;
+    border-radius: 5px;
+    box-shadow: #0000001c 0px 0px 10px 3px;
+    width:60%;
+    margin:20%;
+    padding: 20px;
+
+  }
+.DestinationName{
+    font-size:30px ;
+    font-weight: bold;
+text-align: center;
+width: 100%;
+
+}
+.DestinationPicture {
+    height:500px;
+    margin:20px;
+}
+.Webcam{
+    height:500px;
+    margin:20px;
+}
+.Intro {
+   font-weight: bold;
+   font-size: 40px;
+   color:red;
+  } 
+
