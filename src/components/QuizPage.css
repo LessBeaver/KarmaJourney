@@ -19,8 +19,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  overflow: scroll;
   position: static;
   padding-top: 10vh;
+  height: 100vh;
   font-family: 'Allura';
   font-size: 25px;
 }
