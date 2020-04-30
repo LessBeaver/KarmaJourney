@@ -38,7 +38,7 @@ const quizQuestions = [
             },
             {
                 type: "Negative",
-                content: "Kagaroo"
+                content: "Kangaroo"
             }
         ]
     },
