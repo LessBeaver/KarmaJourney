@@ -1,5 +1,5 @@
 .homebg {
-    background-image: url('./plagebis.jpg');
+    background-image: url('./maldives.jpg');
     background-color: red;
     height: 90vh;
     background-position: center;
@@ -10,11 +10,11 @@
     align-items: center;
 }
 
-.play {
+/* .play {
   display: absolute;
   background-image: linear-gradient(to right, #403B4A 0%, #E7E9BB 51%, #403B4A 100%);
   padding: 6px 10px;
-  margin-top: 41vh;
+  margin-top: 60vh;
   border-radius: 10px;
   height: auto;
   width: 200px;
@@ -23,4 +23,19 @@
 
 .play:hover {
   background-position: right center; 
-} 
+}  */
+
+.btn-grad {
+  display: absolute;
+  background-image: linear-gradient(to right, #c21500 0%, #ffc500 51%, #c21500 100%);
+  padding: 6px 10px;
+  margin-top: 60vh;
+  border-radius: 10px;
+  height: auto;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.btn-grad:hover {
+ background-position: right center;
+ }

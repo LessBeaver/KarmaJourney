@@ -7,7 +7,7 @@ class Home extends React.Component {
     return (
       <div className="homebg">
         <Link to="QuizPage" className="">
-          <button className="play" type="button">Play now !</button>
+          <button className="btn-grad" type="button">Play now !</button>
         </Link>
       </div>
     );
