@@ -26,21 +26,20 @@ export default class ApiCall2 extends React.Component {
           <div>...Je me lance !!!</div>
         ) : (
           <div className='Résultat'>
-            <p className='Intro'>Dommage! A cause de ton mauvais karma, ta destination est:</p>
+            <p className='Intro'>Sorry! Due to your bad karma, your destination is:</p>
             <div className='DestinationName'>{this.state.webcam.location.city} - <span className="Country">{this.state.webcam.location.country}</span> </div>
 
             <img className='DestinationPicture'
               src={this.state.webcam.image.daylight.preview}
               alt={this.state.webcam.title}
             /> 
-            <p className="PrésentationWebcam"> Pour te donner néanmoins envie, je te propose de regarder la vidéo ci-dessous te présentant une journée passée à ta futur destination</p>    
+            <p className="PrésentationWebcam"> To give you some material, I invite you to watch the video bellow presenting one day at your futur destination</p>    
               <iframe className="Webcam"
     title="this.state.webcam.title" src={this.state.webcam.player.day.embed}></iframe>
     
     <p className="Présentationwiki">
-              Tu peux également déjà préparer ton voyage grâce à la participation de
-              wikipédia</p>  
-              <a className="AResult"href={this.state.webcam.location.wikipedia}>ici</a>
+    You can allready prepare your trip thanks to wikipedia</p>  
+              <a className="AResult"href={this.state.webcam.location.wikipedia}>here</a>
           </div>
         )}
       </div>
